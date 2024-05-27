@@ -14,7 +14,7 @@ print(f" \n{Fore.BLUE}{Style.BRIGHT}DEMO VERSION{Style.RESET_ALL}\n \nnelsorex\n
 args = sys.argv
 mode = args[1]
 if renewal:
-    balance = args[3]
+    balance = args[8]
     symbol=args[4]
     renew=args[2]
     ex_list=args[5]
